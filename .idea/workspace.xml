@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bcf2b68-e8de-4841-8d5f-be660942cdcd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/combinatorPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/combinatorPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/callback/Callback.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,13 +49,13 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.combinatorPattern.Main">
-    <configuration name="Functions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functions.Functions" />
+  <component name="RunManager" selected="Application.Callback">
+    <configuration name="Callback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="callback.Callback" />
       <module name="javafunction" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functions.*" />
+          <option name="PATTERN" value="callback.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Callback" />
         <item itemvalue="Application.combinatorPattern.Main" />
         <item itemvalue="Application._Optional" />
         <item itemvalue="Application.Suppliers" />
         <item itemvalue="Application.Predicates" />
-        <item itemvalue="Application.Functions" />
       </list>
     </recent_temporary>
   </component>
