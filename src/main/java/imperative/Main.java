@@ -2,6 +2,7 @@ package imperative;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 import static imperative.Main.Person.Gender.*;
@@ -29,8 +30,10 @@ public class Main {
         }
 
         //Declarative
+        Predicate<Person> personPredicate = people -> Male.equals(people.gender);// Command Shortcut: option+command+V
+
         List<Person> malesPeople = peoples.stream()
-                .filter(people -> Male.equals(people.gender))
+                .filter(personPredicate) //Reformat //option+command+N
                 .collect(Collectors.toList());
         malesPeople.forEach(System.out::println);
     }

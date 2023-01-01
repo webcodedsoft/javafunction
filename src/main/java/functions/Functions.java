@@ -1,5 +1,6 @@
 package functions;
 
+import java.util.function.BiConsumer;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Function;
@@ -26,9 +27,11 @@ public class Functions {
         Customer customer = new Customer("Adesola", "08138178550");
         greetCustomer.accept(customer);
 
+        greetCustomerBi.accept(customer, false);
     }
 
     static Consumer<Customer> greetCustomer = customer -> System.out.println("Hi, "+customer.customerName+" thanks for registering your phone number "+ customer.customerPhone);
+    static BiConsumer<Customer, Boolean> greetCustomerBi = (customer, showNumber) -> System.out.println("Hi, "+customer.customerName+" thanks for registering your phone number "+ (showNumber ? customer.customerPhone : "****************"));
 
 
     static Function<Integer, Integer> functionIncremental = number -> number + 1;

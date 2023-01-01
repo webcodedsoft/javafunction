@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bcf2b68-e8de-4841-8d5f-be660942cdcd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/functions/Functions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/combinatorPattern/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/combinatorPattern/CustomerValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/combinatorPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/optional/_Optional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/predicates/Predicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/supplier/Suppliers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functions/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functions/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/imperative/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/imperative/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -49,7 +57,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Functions">
+  <component name="RunManager" selected="Application.combinatorPattern.Main">
     <configuration name="Functions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functions.Functions" />
       <module name="javafunction" />
@@ -63,12 +71,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imperative.Main" />
+    <configuration name="Predicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="predicates.Predicates" />
       <module name="javafunction" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="imperative.*" />
+          <option name="PATTERN" value="predicates.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Suppliers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="supplier.Suppliers" />
+      <module name="javafunction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="supplier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_Optional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional._Optional" />
+      <module name="javafunction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="optional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="combinatorPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="combinatorPattern.Main" />
+      <module name="javafunction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="combinatorPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,8 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.combinatorPattern.Main" />
+        <item itemvalue="Application._Optional" />
+        <item itemvalue="Application.Suppliers" />
+        <item itemvalue="Application.Predicates" />
         <item itemvalue="Application.Functions" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
