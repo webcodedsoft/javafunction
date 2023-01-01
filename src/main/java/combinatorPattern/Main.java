@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Customer customer = new Customer(
                 "Adedeji",
-                "adedeji@gmail.com",
+                "adedejisikiruadesola@gmail.com",
                 "+2348138178550",
                 Male,
                 LocalDate.of(2000, 1, 3));

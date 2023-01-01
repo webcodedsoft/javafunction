@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bcf2b68-e8de-4841-8d5f-be660942cdcd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/combinatorPattern/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/combinatorPattern/CustomerValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/combinatorPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/optional/_Optional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/predicates/Predicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/supplier/Suppliers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functions/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functions/Functions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/imperative/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/imperative/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/combinatorPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/combinatorPattern/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
